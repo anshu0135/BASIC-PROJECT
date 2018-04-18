@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="190092" started-at="2018-04-16T17:49:17Z" finished-at="2018-04-16T17:52:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="190092" started-at="2018-04-16T17:49:17Z" finished-at="2018-04-16T17:52:27Z">
+      <class name="Framework_Propertyfile">
+        <test-method status="PASS" signature="invoke()[pri:0, instance:Framework_Propertyfile@56ef9176]" name="invoke" is-config="true" duration-ms="21927" started-at="2018-04-16T23:19:17Z" finished-at="2018-04-16T23:19:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoke -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Framework_Propertyfile@56ef9176]" name="login" is-config="true" duration-ms="48450" started-at="2018-04-16T23:19:39Z" finished-at="2018-04-16T23:20:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="BookFlight()[pri:0, instance:Framework_Propertyfile@56ef9176]" name="BookFlight" duration-ms="34378" started-at="2018-04-16T23:20:27Z" finished-at="2018-04-16T23:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookFlight -->
+        <test-method status="PASS" signature="FlightStatus()[pri:0, instance:Framework_Propertyfile@56ef9176]" name="FlightStatus" is-config="true" duration-ms="3750" started-at="2018-04-16T23:21:01Z" finished-at="2018-04-16T23:21:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightStatus -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Framework_Propertyfile@56ef9176]" name="login" is-config="true" duration-ms="22963" started-at="2018-04-16T23:21:05Z" finished-at="2018-04-16T23:21:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="Support()[pri:0, instance:Framework_Propertyfile@56ef9176]" name="Support" duration-ms="18029" started-at="2018-04-16T23:21:28Z" finished-at="2018-04-16T23:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Support -->
+        <test-method status="FAIL" signature="FlightStatus()[pri:0, instance:Framework_Propertyfile@56ef9176]" name="FlightStatus" is-config="true" duration-ms="0" started-at="2018-04-16T23:21:46Z" finished-at="2018-04-16T23:21:46Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":".//*[@class='dropdown-toggle' and contains(text(),'Hi  Anshuman ')]"}
+Command duration or timeout: 40.52 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'Anshu143', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e1960fb3-2192-42c2-80b8-bfa780c5b18e
+*** Element info: {Using=xpath, value=.//*[@class='dropdown-toggle' and contains(text(),'Hi  Anshuman ')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@class='dropdown-toggle' and contains(text(),'Hi  Anshuman ')]"}
+Command duration or timeout: 40.52 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'Anshu143', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e1960fb3-2192-42c2-80b8-bfa780c5b18e
+*** Element info: {Using=xpath, value=.//*[@class='dropdown-toggle' and contains(text(),'Hi  Anshuman ')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at Framework_Propertyfile.FlightStatus(Framework_Propertyfile.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@class='dropdown-toggle' and contains(text(),'Hi  Anshuman ')]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'Anshu143', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Anshu/AppData/Local/Temp/anonymous6085586935307232810webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/Anshu/AppData/Local/Temp/anonymous6085586935307232810webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightStatus -->
+        <test-method status="SKIP" signature="login()[pri:0, instance:Framework_Propertyfile@56ef9176]" name="login" is-config="true" duration-ms="0" started-at="2018-04-16T23:22:27Z" finished-at="2018-04-16T23:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="SpecialDeals()[pri:0, instance:Framework_Propertyfile@56ef9176]" name="SpecialDeals" duration-ms="3" started-at="2018-04-16T23:22:27Z" finished-at="2018-04-16T23:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SpecialDeals -->
+        <test-method status="SKIP" signature="FlightStatus()[pri:0, instance:Framework_Propertyfile@56ef9176]" name="FlightStatus" is-config="true" duration-ms="0" started-at="2018-04-16T23:22:27Z" finished-at="2018-04-16T23:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightStatus -->
+        <test-method status="SKIP" signature="close()[pri:0, instance:Framework_Propertyfile@56ef9176]" name="close" is-config="true" duration-ms="0" started-at="2018-04-16T23:22:27Z" finished-at="2018-04-16T23:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Framework_Propertyfile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
